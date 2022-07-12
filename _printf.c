@@ -35,13 +35,13 @@ int _printf(const char *format, ...)
 					if (format[i + 1] == ' ' && !format[i + 2])
 						return (-1);
 					cat_buffer(buffer, format[i], ibuf), len++, i--;
-				}
-				else
+				} else
+				{
 					len += function(arguments, buffer, ibuf);
 					i += ev_print_func(format, i + 1);
+				}
 			} i++;
-		}
-		else
+		} else
 			cat_buffer(buffer, format[i], ibuf), len++;
 		for (ibuf = len; ibuf > 1024; ibuf -= 1024)
 			;
