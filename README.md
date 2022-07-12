@@ -4,4 +4,3 @@ A collaboration project between
 <li>Abdulmutalib Abdulsallam</li>
 <li>Ibitowa Ifeoluwa</li>
 </ul>
-New line
