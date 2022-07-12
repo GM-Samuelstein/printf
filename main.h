@@ -27,7 +27,7 @@ int print_prg(va_list __attribute__((unused)), char *, unsigned int);
 int print_character(va_list arguments, char *buf, unsigned int ibuf);
 int print_string(va_list arguments, char *buf, unsigned int ibuf);
 int print_integer(va_list arguments, char *buf, unsigned int ibuf);
-int print_binary(va_list arguments, char *buf, unsigned int ibuf);
+int print_bnr(va_list arguments, char *buf, unsigned int ibuf);
 int print_unt(va_list arguments, char *buf, unsigned int ibuf);
 int print_oct(va_list arguments, char *buf, unsigned int ibuf);
 int print_hex(va_list arguments, char *buf, unsigned int ibuf);

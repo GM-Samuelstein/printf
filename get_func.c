@@ -8,16 +8,16 @@
 int (*get_func(const char *s, int index))(va_list, char *, unsigned int)
 {
 	print_t pr[] = {
-		{"c", print_chr}, {"s", print_str}, {"i", print_int},
-		{"d", print_int}, {"b", print_bnr}, {"u", print_unt},
+		{"c", print_character}, {"s", print_string}, {"i", print_integer},
+		{"d", print_integer}, {"b", print_bnr}, {"u", print_unt},
 		{"o", print_oct}, {"x", print_hex}, {"X", print_upx},
 		{"S", print_usr}, {"p", print_add}, {"li", prinlint},
 		{"ld", prinlint}, {"lu", prinlunt}, {"lo", prinloct},
 		{"lx", prinlhex}, {"lX", prinlupx}, {"hi", prinhint},
 		{"hd", prinhint}, {"hu", prinhunt}, {"ho", prinhoct},
 		{"hx", prinhhex}, {"hX", prinhupx}, {"#o", prinnoct},
-		{"#x", prinnhex}, {"#X", prinnupx}, {"#i", print_int},
-		{"#d", print_int}, {"#u", print_unt}, {"+i", prinpint},
+		{"#x", prinnhex}, {"#X", prinnupx}, {"#i", print_integer},
+		{"#d", print_integer}, {"#u", print_unt}, {"+i", prinpint},
 		{"+d", prinpint}, {"+u", print_unt}, {"+o", print_oct},
 		{"+x", print_hex}, {"+X", print_upx}, {" i", prinsint},
 		{" d", prinsint}, {" u", print_unt}, {" o", print_oct},
