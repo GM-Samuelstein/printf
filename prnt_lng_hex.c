@@ -1,4 +1,4 @@
-#include "mainn.h"
+#include "main.h"
 /**
  * prinlhex - Function to prints a long decimal in hexadecimal
  * @arguments: input string
