@@ -6,6 +6,7 @@
  * @ibuf: index for buffer pointer
  * Return: number of chars printed
  */
+
 int prinpint(va_list arguments, char *buf, unsigned int ibuf)
 {
 	int int_input;

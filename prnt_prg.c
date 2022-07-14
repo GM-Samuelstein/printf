@@ -7,6 +7,7 @@
  * @i: index for buffer pointer
  * Return: On success 1.
  */
+
 int print_prg(va_list a __attribute__((unused)), char *buf, unsigned int i)
 {
 	cat_buffer(buf, '%', i);
