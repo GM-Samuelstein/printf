@@ -2,5 +2,5 @@
 A collaboration project between 
 <ul>
 <li>Abdulmutalib Abdulsallam</li>
-<li>Ibitowa Ifeoluwa</li>
+<li><a href="https://github.com/GM-Samuelstein">Ibitowa Ifeoluwa</a></li>
 </ul>
